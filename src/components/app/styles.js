@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 80%;
   margin: 0 auto;
   max-width: 600px;
+  margin-bottom: 125px;
 `
 
 export const Intro = styled.h1`
@@ -35,6 +36,12 @@ export const Text = styled.p`
   font-family: Arial, sans-serif;
   margin: 0 0 12px 0;
   padding: 2px 0;
+`
+
+export const Link = styled.a`
+  &:visited {
+    color: black;
+  }
 `
 
 export const TextNote = styled.span`

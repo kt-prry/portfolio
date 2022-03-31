@@ -1,50 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
-import { graphics } from '../utils/work_data'
-import { Intro } from '../styles'
-
-const Container = styled.div`
-  width: 80%;
-  margin: 0 auto;
-  padding: 25px 0;
-  max-width: 800px;
-`
-
-const Grid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  padding-bottom: 50px;
-`
-
-const WideImage = styled.img`
-  width: 100%;
-  margin: 50px 0;
-`
-
-const TopSection = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`
-const Title = styled.h1`
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-`
-
-const Text = styled.h2`
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 200;
-`
-
-const GoBack = styled.button`
-  border: none;
-  background-color: #eee;
-  padding: 8px;
-  border-radius: 3px;
-  cursor: pointer;
-`
+import { graphics } from '../work_data'
+import {
+  Container,
+  Grid,
+  WideImage,
+  TopSection,
+  Title,
+  Text,
+  GoBack,
+} from './styles'
 
 function CloserLook(props) {
   const {
@@ -54,7 +19,6 @@ function CloserLook(props) {
 
   const activeGraphicInfo = activeGraphic && graphics.find(gfx => gfx.id === activeGraphic)
   const pairImages = activeGraphicInfo.pairImages
-
 
   return (
     <Container>

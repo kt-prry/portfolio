@@ -1,4 +1,7 @@
+import App from './app'
+import CloserLook from './closer_look'
 
-export {
-	
+export default {
+  App,
+  CloserLook	
 }

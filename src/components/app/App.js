@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react'
 import styled from 'styled-components'
-import './App.css';
 import {
   Container,
   Intro,
@@ -8,12 +7,13 @@ import {
   Flex,
   StoryContainer,
   Text,
+  Link,
   TextNote,
   GraphicsContainer,
   GraphicTitle,
 } from './styles'
-import { stories, graphics } from './utils/work_data'
-import CloserLook from './components/CloserLook'
+import { stories, graphics } from '../work_data'
+import CloserLook from '../closer_look'
 
 function App() {
   const [showCloserLook, setShowCloserLook] = useState(false)
@@ -45,7 +45,7 @@ function App() {
                   .map((story, i) => {
                     return (
                       <Text>
-                        <a key={i} href={story.link}>{story.title}</a> <TextNote>{story.org}/{story.year}</TextNote>
+                        <Link key={i} href={story.link}>{story.title}</Link> <TextNote>{story.org}/{story.year}</TextNote>
                       </Text>
                     )
                 })}
@@ -63,8 +63,7 @@ function App() {
                   })
                 }
               </GraphicsContainer>
-              <Subtitle line>About me:
-              </Subtitle>
+              <Subtitle line>About me:</Subtitle>
               <Text>{aboutMeText}</Text>
             </Flex>
           </Container>)
