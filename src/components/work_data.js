@@ -10,6 +10,17 @@ import votecastPrint from '../images/vc_full.jpeg'
 import votecastHealthcare from '../images/vc_healthcare.png'
 import votecastSquares from '../images/vc_squares.png'
 import votecastTimeline from '../images/vc_timeline.png'
+import bidenPromises from '../images/biden-promise-tracker.png'
+import approval from '../images/approval.png'
+import issues from '../images/issues.png'
+import georgiaAudit from '../images/georgia-audit-2020.jpeg'
+import yellowstone from '../images/yellowstone.png'
+import newZealand from '../images/te-araroa.png'
+import armenia from '../images/armenia_reference_map.png'
+import emoryRadio from '../images/radio-emory.png'
+import emoryNarrative from '../images/radio-emory-narrative.png'
+import calahorra from '../images/adventure-in-calahorra.png'
+import calahorraZoom from '../images/calahorra-zoom.png'
 
 export const stories = [
   {
@@ -46,17 +57,42 @@ export const graphics = [
     link: 'https://interactives.ap.org/votecast-2020-ge-map/',
     wideImages: [votecastPrem, votecastStates],
     pairImages: [votecastLite1, votecastLite2],
-    tools: 'JS, React, CSS',
+    tools: 'JS, React',
     desc: 'AP VoteCast is a wide-ranging survey of the American electorate, and to make the findings accessible, I worked with my teammate to design and build a set of online interactives.',
   },
   {
     id: 'votecastPrint',
     mainImage: votecastPrint,
-    title: 'AP VoteCast Premium',
+    title: 'AP VoteCast in Print',
     wideImages: [votecastPrint, votecastTimeline],
     pairImages: [votecastHealthcare, votecastSquares],
     tools: 'R, Illustrator',
     desc: 'AP VoteCast is a wide-ranging survey of the American electorate, and to make the findings accessible, I brainstormed key themes of the 2020 Democratic primaries, ran case-level analysis, and designed double- and single-page visuals for print.',
+  },
+  {
+    id: 'bidenPromises',
+    mainImage: bidenPromises,
+    title: "Tracking Biden's 100-day promises",
+    link: 'https://interactives.ap.org/biden-promise-tracker/',
+    wideImages: [bidenPromises],
+    tools: 'JS, React',
+    desc: "A team at the AP tracked and visualized each of President Biden's promises for his first 100 days in office.",
+  },
+  {
+    id: 'georgiaAudit',
+    mainImage: georgiaAudit,
+    title: "Georgia's 2020 Election Audit",
+    link: 'https://interactives.ap.org/georgia-election-audit/',
+    wideImages: [georgiaAudit],
+    tools: 'JS, React',
+  },
+  {
+    id: 'pollingData',
+    mainImage: issues,
+    title: 'AP-NORC polls',
+    link: 'https://interactives.ap.org/most-important-issues/',
+    wideImages: [issues, approval],
+    tools: 'JS, React',
   },
   {
     id: 'spain',
@@ -70,6 +106,41 @@ export const graphics = [
     mainImage: caucasus,
     title: 'Shaded Relief 2: Caucasus Region',
     wideImages: [caucasus, caucasusZoom],
+    tools: 'Illustrator, Photoshop',
+  },
+  {
+    id: 'teAraroa',
+    mainImage: newZealand,
+    title: 'Te Araroa',
+    wideImages: [newZealand],
+    tools: 'Illustrator, Photoshop',
+  },
+  {
+    id: 'yellowstone',
+    mainImage: yellowstone,
+    title: 'Earthquakes in Yellowstone',
+    wideImages: [yellowstone],
+    tools: 'Illustrator, Photoshop',
+  },
+  {
+    id: 'armenia',
+    mainImage: armenia,
+    title: 'Armenia Reference Map',
+    wideImages: [armenia],
+    tools: 'Illustrator, Photoshop',
+  },
+  {
+    id: 'calahorra',
+    mainImage: calahorra,
+    title: 'Calahorra Adventure Map',
+    wideImages: [calahorra, calahorraZoom],
+    tools: 'Illustrator, Photoshop',
+  },
+  {
+    id: 'emory',
+    mainImage: emoryRadio,
+    title: 'Radio in Emory',
+    wideImages: [emoryRadio, emoryNarrative],
     tools: 'Illustrator, Photoshop',
   },
 ]
