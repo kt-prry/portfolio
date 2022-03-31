@@ -17,7 +17,7 @@ export const Subtitle = styled.h2`
   font-weight: 500;
   font-size: 18px;
   padding: 5px 0 10px 0;
-  border-bottom: 1px #888 solid;
+  border-bottom: ${props => props.line ? '1px #888 solid' : ''};
   margin: 0 0 20px 0;
 `
 
@@ -28,7 +28,7 @@ export const Flex = styled.div`
 
 export const StoryContainer = styled.div`
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 `
 
 export const Text = styled.p`
@@ -49,7 +49,7 @@ export const GraphicsContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
   row-gap: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 `
 
 export const GraphicTitle = styled.p`

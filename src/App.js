@@ -38,7 +38,7 @@ function App() {
               {introText}
             </Intro>
             <Flex>
-              <Subtitle>Here are some visuals-driven stories I've worked on:</Subtitle>
+              <Subtitle line>Here are some visuals-driven stories I've worked on:</Subtitle>
               <StoryContainer>
                 {stories
                   .sort((st1, st2) => st2.year - st1.year)
@@ -50,7 +50,7 @@ function App() {
                     )
                 })}
               </StoryContainer>
-              <Subtitle>Here are some interactives and maps I've worked on:</Subtitle>
+              <Subtitle line>Here are some interactives and maps I've worked on:</Subtitle>
               <GraphicsContainer>
                 {graphics
                   .map((graphic, i) => {
@@ -63,7 +63,7 @@ function App() {
                   })
                 }
               </GraphicsContainer>
-              <Subtitle>About me:
+              <Subtitle line>About me:
               </Subtitle>
               <Text>{aboutMeText}</Text>
             </Flex>

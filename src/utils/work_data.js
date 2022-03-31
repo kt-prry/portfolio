@@ -1,7 +1,15 @@
 import spain from '../images/spain-square.png'
 import caucasus from '../images/caucasus_region.png'
 import votecastPrem from '../images/ap-votecast-prem.jpeg'
-
+import votecastLite1 from '../images/ap-votecast-lite-1.jpeg'
+import votecastLite2 from '../images/ap-votecast-lite-ge.jpeg'
+import votecastStates from '../images/votecast-prem-state-view.jpeg'
+import spainZoom from '../images/zoom-in-spain.png'
+import caucasusZoom from '../images/zoom-in-caucasus.png'
+import votecastPrint from '../images/vc_full.jpeg'
+import votecastHealthcare from '../images/vc_healthcare.png'
+import votecastSquares from '../images/vc_squares.png'
+import votecastTimeline from '../images/vc_timeline.png'
 
 export const stories = [
   {
@@ -34,16 +42,34 @@ export const graphics = [
   {
     id: 'votecastPrem',
     mainImage: votecastPrem,
-    title: 'AP VoteCast Premium'
+    title: 'AP VoteCast Premium',
+    link: 'https://interactives.ap.org/votecast-2020-ge-map/',
+    wideImages: [votecastPrem, votecastStates],
+    pairImages: [votecastLite1, votecastLite2],
+    tools: 'JS, React, CSS',
+    desc: 'AP VoteCast is a wide-ranging survey of the American electorate, and to make the findings accessible, I worked with my teammate to design and build a set of online interactives.',
+  },
+  {
+    id: 'votecastPrint',
+    mainImage: votecastPrint,
+    title: 'AP VoteCast Premium',
+    wideImages: [votecastPrint, votecastTimeline],
+    pairImages: [votecastHealthcare, votecastSquares],
+    tools: 'R, Illustrator',
+    desc: 'AP VoteCast is a wide-ranging survey of the American electorate, and to make the findings accessible, I brainstormed key themes of the 2020 Democratic primaries, ran case-level analysis, and designed double- and single-page visuals for print.',
   },
   {
     id: 'spain',
     mainImage: spain,
-    title: 'Shaded Relief 1: Iberian Peninsula'
+    title: 'Shaded Relief 1: Iberian Peninsula',
+    wideImages: [spain, spainZoom],
+    tools: 'Illustrator, Photoshop',
   },
   {
     id: 'caucasus',
     mainImage: caucasus,
-    title: 'Shaded Relief 2: Caucasus Region'
+    title: 'Shaded Relief 2: Caucasus Region',
+    wideImages: [caucasus, caucasusZoom],
+    tools: 'Illustrator, Photoshop',
   },
 ]
