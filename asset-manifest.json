@@ -1,18 +1,27 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio/static/js/main.e5b25ab5.js",
+    "main.js": "/portfolio/static/js/main.2ac3163c.js",
     "static/js/787.9fa5dc5d.chunk.js": "/portfolio/static/js/787.9fa5dc5d.chunk.js",
     "static/media/spain-square.png": "/portfolio/static/media/spain-square.ccf688aa3a5c4b411ed8.png",
     "static/media/caucasus_region.png": "/portfolio/static/media/caucasus_region.6cc9538ce90eb6090d26.png",
+    "static/media/zoom-in-caucasus.png": "/portfolio/static/media/zoom-in-caucasus.bd9bdcfd7c3e5df17b47.png",
+    "static/media/zoom-in-spain.png": "/portfolio/static/media/zoom-in-spain.8c30a2b9cb9c5d231283.png",
+    "static/media/vc_full.jpeg": "/portfolio/static/media/vc_full.f036b948eae0b28f23d7.jpeg",
     "static/media/ap-votecast-prem.jpeg": "/portfolio/static/media/ap-votecast-prem.5be0acc047f93d83a4ef.jpeg",
+    "static/media/vc_timeline.png": "/portfolio/static/media/vc_timeline.3c6e0b60452963a1b8df.png",
+    "static/media/votecast-prem-state-view.jpeg": "/portfolio/static/media/votecast-prem-state-view.8823fff9e5a34cd5f36d.jpeg",
+    "static/media/vc_squares.png": "/portfolio/static/media/vc_squares.6ff0aecde66369da1bee.png",
+    "static/media/ap-votecast-lite-ge.jpeg": "/portfolio/static/media/ap-votecast-lite-ge.f76ac87576a63ad63f00.jpeg",
+    "static/media/vc_healthcare.png": "/portfolio/static/media/vc_healthcare.2a571f5268fec566146e.png",
+    "static/media/ap-votecast-lite-1.jpeg": "/portfolio/static/media/ap-votecast-lite-1.71ea5f12863b31b77d9f.jpeg",
     "index.html": "/portfolio/index.html",
     "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
-    "main.e5b25ab5.js.map": "/portfolio/static/js/main.e5b25ab5.js.map",
+    "main.2ac3163c.js.map": "/portfolio/static/js/main.2ac3163c.js.map",
     "787.9fa5dc5d.chunk.js.map": "/portfolio/static/js/787.9fa5dc5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.e5b25ab5.js"
+    "static/js/main.2ac3163c.js"
   ]
 }
