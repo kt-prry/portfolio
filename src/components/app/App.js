@@ -41,7 +41,7 @@ function App() {
               {introText}
             </Intro>
             <Flex>
-              <Subtitle line>⚡️ Here are some visuals-driven stories I've worked on:</Subtitle>
+              <Subtitle line>⚡️ I love working on visuals-driven stories and building an identity for a piece with graphics, photos, and video. Here are a couple of my favorites:</Subtitle>
               <StoryContainer>
                 {stories
                   .sort((st1, st2) => st2.year - st1.year)
@@ -53,14 +53,16 @@ function App() {
                     )
                 })}
               </StoryContainer>
-              <Subtitle line>🗺 Here are some interactives and maps I've worked on:</Subtitle>
+              <Subtitle line>👩🏻‍💻 I've also worked on interactives and individual graphics to support breaking news and other storytelling. Here are some examples: </Subtitle>
               <GraphicsContainer>
                 {graphics
                   .map((graphic, i) => {
                     return (
                       <GraphicContainer onClick={() => selectCloserLook(graphic.id)}>
                         <img style={{ width: '100%' }} src={graphic.mainImage} />
-                        <GraphicTitle>{graphic.title}</GraphicTitle>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+                        <GraphicTitle>{graphic.title}</GraphicTitle> <TextNote>{graphic.org}/{graphic.year}</TextNote>
+                        </div>
                       </GraphicContainer>
                     )
                   })

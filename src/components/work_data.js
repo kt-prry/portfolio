@@ -21,6 +21,7 @@ import emoryRadio from '../images/radio-emory.png'
 import emoryNarrative from '../images/radio-emory-narrative.png'
 import calahorra from '../images/adventure-in-calahorra.png'
 import calahorraZoom from '../images/calahorra-zoom.png'
+import gaza from '../images/gaza-breaking-news.jpg'
 
 export const stories = [
   {
@@ -51,6 +52,15 @@ export const stories = [
 
 export const graphics = [
   {
+    id: 'gaza',
+    mainImage: gaza,
+    title: 'Breaking news in Gaza, May 2021',
+    wideImages: [gaza],
+    tools: 'Illustrator, Photoshop',
+    org: 'AP',
+    year: 2021,
+  },
+  {
     id: 'votecastPrem',
     mainImage: votecastPrem,
     title: 'AP VoteCast Premium',
@@ -59,6 +69,8 @@ export const graphics = [
     pairImages: [votecastLite1, votecastLite2],
     tools: 'JS, React',
     desc: 'AP VoteCast is a wide-ranging survey of the American electorate, and to make the findings accessible, I worked with my teammate to design and build a set of online interactives.',
+    org: 'AP',
+    year: 2020,
   },
   {
     id: 'votecastPrint',
@@ -68,6 +80,8 @@ export const graphics = [
     pairImages: [votecastHealthcare, votecastSquares],
     tools: 'R, Illustrator',
     desc: 'AP VoteCast is a wide-ranging survey of the American electorate, and to make the findings accessible, I brainstormed key themes of the 2020 Democratic primaries, ran case-level analysis, and designed double- and single-page visuals for print.',
+    org: 'AP',
+    year: 2020,
   },
   {
     id: 'bidenPromises',
@@ -77,6 +91,8 @@ export const graphics = [
     wideImages: [bidenPromises],
     tools: 'JS, React',
     desc: "A team at the AP tracked and visualized each of President Biden's promises for his first 100 days in office.",
+    org: 'AP',
+    year: 2021,
   },
   {
     id: 'georgiaAudit',
@@ -85,6 +101,8 @@ export const graphics = [
     link: 'https://interactives.ap.org/georgia-election-audit/',
     wideImages: [georgiaAudit],
     tools: 'JS, React',
+    org: 'AP',
+    year: 2021,
   },
   {
     id: 'pollingData',
@@ -93,6 +111,8 @@ export const graphics = [
     link: 'https://interactives.ap.org/most-important-issues/',
     wideImages: [issues, approval],
     tools: 'JS, React',
+    org: 'AP',
+    year: 2021,
   },
   {
     id: 'spain',
@@ -100,6 +120,8 @@ export const graphics = [
     title: 'Shaded Relief 1: Iberian Peninsula',
     wideImages: [spain, spainZoom],
     tools: 'Illustrator, Photoshop',
+    org: 'For fun',
+    year: 2019,
   },
   {
     id: 'caucasus',
@@ -107,6 +129,8 @@ export const graphics = [
     title: 'Shaded Relief 2: Caucasus Region',
     wideImages: [caucasus, caucasusZoom],
     tools: 'Illustrator, Photoshop',
+    org: 'USAID/OTI',
+    year: 2019,
   },
   {
     id: 'teAraroa',
@@ -114,6 +138,8 @@ export const graphics = [
     title: 'Te Araroa',
     wideImages: [newZealand],
     tools: 'Illustrator, Photoshop',
+    org: 'For fun',
+    year: 2019,
   },
   {
     id: 'yellowstone',
@@ -121,6 +147,9 @@ export const graphics = [
     title: 'Earthquakes in Yellowstone',
     wideImages: [yellowstone],
     tools: 'Illustrator, Photoshop',
+    org: 'UO',
+    year: 2019,
+
   },
   {
     id: 'armenia',
@@ -128,6 +157,8 @@ export const graphics = [
     title: 'Armenia Reference Map',
     wideImages: [armenia],
     tools: 'Illustrator, Photoshop',
+    org: 'USAID/OTI',
+    year: 2019,
   },
   {
     id: 'calahorra',
@@ -135,6 +166,8 @@ export const graphics = [
     title: 'Calahorra Adventure Map',
     wideImages: [calahorra, calahorraZoom],
     tools: 'Illustrator, Photoshop',
+    org: 'For fun',
+    year: 2019,
   },
   {
     id: 'emory',
@@ -142,5 +175,7 @@ export const graphics = [
     title: 'Radio in Emory',
     wideImages: [emoryRadio, emoryNarrative],
     tools: 'Illustrator, Photoshop',
+    org: 'For fun',
+    year: 2019,
   },
 ]

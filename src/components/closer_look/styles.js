@@ -56,6 +56,7 @@ export const Link = styled.a`
 `
 
 export const GoBack = styled.button`
+  font-family: 'Work Sans', Arial, sans-serif;
   border: none;
   background-color: #eee;
   padding: 8px;

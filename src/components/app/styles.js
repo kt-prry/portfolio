@@ -52,6 +52,7 @@ export const Link = styled.a`
 `
 
 export const TextNote = styled.span`
+  font-family: 'Work Sans', Arial, sans-serif;
   font-size: 12px;
   padding-left: 4px;
   color: #888;
@@ -72,15 +73,17 @@ export const GraphicsContainer = styled.div`
 
 export const GraphicContainer = styled.div`
   overflow: hidden;
-  objectFit: cover;
+  object-fit: cover;
   width: 100%;
   cursor: pointer;
 `
 
 export const GraphicTitle = styled.p`
+  font-family: 'Work Sans', Arial, sans-serif;
   padding: 4px 0;
   margin: 0;
   font-size: 14px;
+  letter-spacing: -1px;
 `
 
 export const Tools = styled.div`
