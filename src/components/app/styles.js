@@ -20,7 +20,6 @@ export const Intro = styled.h1`
 
 export const Subtitle = styled.h2`
   font-family: 'Work Sans', Arial, sans-serif;
-  letter-spacing: -1px;
   font-weight: 500;
   font-size: 18px;
   padding: 5px 0 10px 0;
@@ -40,7 +39,6 @@ export const StoryContainer = styled.div`
 
 export const Text = styled.p`
   font-family: 'Work Sans', Arial, sans-serif;
-  letter-spacing: -1px;
   margin: 0 0 12px 0;
   padding: 2px 0;
 `
@@ -83,7 +81,6 @@ export const GraphicTitle = styled.p`
   padding: 4px 0;
   margin: 0;
   font-size: 14px;
-  letter-spacing: -1px;
 `
 
 export const Tools = styled.div`

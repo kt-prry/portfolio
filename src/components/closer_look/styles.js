@@ -46,7 +46,6 @@ export const Text = styled.h2`
   font-family: 'Work Sans', Arial, sans-serif;
   font-size: 16px;
   font-weight: ${props => props.bold ? '600' : '400' };
-  letter-spacing: -1px;
 `
 
 export const Link = styled.a`
