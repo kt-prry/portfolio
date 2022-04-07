@@ -21,7 +21,7 @@ function App() {
   const [showCloserLook, setShowCloserLook] = useState(false)
   const [activeGraphic, setActiveGraphic] = useState()
   const introText = "Hi, I'm Kati! I'm a data visualization reporter and developer at the Associated Press."
-  const aboutMeText = "I'm a Mississippi native, and like many fine folks, I get excited about beautiful maps (particularly ones with shaded relief), clever visuals, and the kinds of interactive graphics that add layers to our understanding of the world around us. I’m picky about biscuits and hushpuppies, enthusiastic about good non-fiction, and eager to cycle and walk places."
+  const aboutMeText = "I'm a Mississippi native, and like many fine folks, I get excited about beautiful maps (particularly ones with shaded relief), clever visuals, and the kinds of interactive graphics that add layers to our understanding of the world around us. I’m picky about biscuits and hushpuppies, enthusiastic about book cover art, and eager to cycle and walk places."
   const toolkit = ['JS', 'React', 'D3', 'Illustrator', 'Photoshop', 'QGIS', 'R', 'Git', 'HTML/CSS']
 
   const selectCloserLook = mapID => {
@@ -41,7 +41,7 @@ function App() {
               {introText}
             </Intro>
             <Flex>
-              <Subtitle line>⚡️ I love working on visuals-driven stories and building an identity for a piece with graphics, photos, and video. Here are a couple of my favorites:</Subtitle>
+              <Subtitle line>⚡️ I love working on visual stories and graphics that help create an identity for a piece in concert with other formats. Here are a couple of my favorites:</Subtitle>
               <StoryContainer>
                 {stories
                   .sort((st1, st2) => st2.year - st1.year)
@@ -53,7 +53,7 @@ function App() {
                     )
                 })}
               </StoryContainer>
-              <Subtitle line>👩🏻‍💻 I've also worked on interactives and individual graphics to support breaking news and other storytelling. Here are some examples: </Subtitle>
+              <Subtitle line>👩🏻‍💻 I've also worked on interactives and individual graphics to support breaking news and other data-driven storytelling. Here are some examples: </Subtitle>
               <GraphicsContainer>
                 {graphics
                   .map((graphic, i) => {

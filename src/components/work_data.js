@@ -34,7 +34,7 @@ export const stories = [
     org: 'AP',
     year: 2021,
     link: 'https://projects.apnews.com/features/2021/gaza-toll-of-war/gaza-toll-one-neighborhood.html',
-    title: "Gaza's Toll: After four wars, Gaza families struggle with the cost",
+    title: "Gaza's toll: After four wars, Gaza families struggle with the cost",
   },
   {
     org: 'AP',
@@ -111,6 +111,7 @@ export const graphics = [
     link: 'https://interactives.ap.org/most-important-issues/',
     wideImages: [issues, approval],
     tools: 'JS, React',
+    desc: "I created interactives to visualize AP-NORC polling data, including President Biden's approval rating since his inauguration and changes in Americans' priorities for 2022.",
     org: 'AP',
     year: 2021,
   },
@@ -138,6 +139,7 @@ export const graphics = [
     title: 'Te Araroa',
     wideImages: [newZealand],
     tools: 'Illustrator, Photoshop',
+    desc: 'Using Illustrator and Photoshop, I wanted to try to create a monochrome shaded relief layer and decided to test out the approach with this map.',
     org: 'For fun',
     year: 2019,
   },
@@ -147,6 +149,7 @@ export const graphics = [
     title: 'Earthquakes in Yellowstone',
     wideImages: [yellowstone],
     tools: 'Illustrator, Photoshop',
+    desc: 'I worked on data cleaning and data visualization for the earthquakes map that appears in the Yellowstone Atlas. (Alethea Steingisser made the beautiful shaded relief in this map!)',
     org: 'UO',
     year: 2019,
 
