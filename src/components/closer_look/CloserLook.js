@@ -34,18 +34,20 @@ function CloserLook(props) {
       {link && <Text bold><Link href={link}>Live page</Link></Text>}
       </TopSection>
       <Text>{activeGraphicInfo.desc}</Text>
-      {activeGraphicInfo.wideImages.map((imgSrc, i) => {
+      {activeGraphicInfo.wideImages.map((image, i) => {
         return (
           <div style={{ overflow: 'hidden', objectFit: 'cover', width: '100%', cursor: 'pointer'}}>
-            <WideImage src={imgSrc} />
+            <a href={image.link}>
+            <WideImage src={image.src} />
+            </a>
           </div>
         )
       })}
       <Grid>
-        {pairImages && activeGraphicInfo.pairImages.map((imgSrc, i) => {
+        {pairImages && activeGraphicInfo.pairImages.map((image, i) => {
           return (
             <div style={{ overflow: 'hidden', objectFit: 'cover', width: '100%'}}>
-              <img style={{ width: '100%'}} src={imgSrc} />
+              <img style={{ width: '100%'}} src={image.src} />
             </div>
           )
         })}

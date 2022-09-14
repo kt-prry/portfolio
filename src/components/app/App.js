@@ -20,7 +20,7 @@ import CloserLook from '../closer_look'
 function App() {
   const [showCloserLook, setShowCloserLook] = useState(false)
   const [activeGraphic, setActiveGraphic] = useState()
-  const introText = "Hi, I'm Kati! I'm a data visualization reporter and developer at the Associated Press."
+  const introText = "Hi, I'm Kati! I'm a graphics reporter at the Washington Post."
   const aboutMeText = "I'm a Mississippi native, and like many fine folks, I get excited about beautiful maps (particularly ones with shaded relief), clever visuals, and the kinds of interactive graphics that add layers to our understanding of the world around us. I’m picky about biscuits and hushpuppies, enthusiastic about book cover art, and eager to cycle and walk places."
   const toolkit = ['JS', 'React', 'D3', 'Illustrator', 'Photoshop', 'QGIS', 'R', 'Git', 'HTML/CSS']
 
