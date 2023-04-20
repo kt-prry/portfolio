@@ -20,7 +20,7 @@ import CloserLook from '../closer_look'
 function App() {
   const [showCloserLook, setShowCloserLook] = useState(false)
   const [activeGraphic, setActiveGraphic] = useState()
-  const introText = "Hi, I'm Kati! I'm a graphics reporter at the Washington Post."
+  const introText = "Hello! My name is Kati, I'm a graphics reporter at the Washington Post."
   const aboutMeText = "I'm a Mississippi native, and like many fine folks, I get excited about beautiful maps (particularly ones with shaded relief), clever visuals, and the kinds of interactive graphics that add layers to our understanding of the world around us. I’m picky about biscuits and hushpuppies, enthusiastic about book cover art, and eager to cycle and walk places."
   const toolkit = ['JS', 'React', 'D3', 'Illustrator', 'Photoshop', 'QGIS', 'R', 'Git', 'HTML/CSS']
 
@@ -28,7 +28,6 @@ function App() {
     setShowCloserLook(true)
     setActiveGraphic(mapID)
   }
-
 
   const ref = useRef()
 
@@ -41,7 +40,7 @@ function App() {
               {introText}
             </Intro>
             <Flex>
-              <Subtitle line>⚡️ I love working on visual stories and graphics that help create an identity for a piece in concert with other formats. Here are a couple of my favorites:</Subtitle>
+              <Subtitle line>⚡️ Here are a handful stories I'm especially proud of:</Subtitle>
               <StoryContainer>
                 {stories
                   .sort((st1, st2) => st2.year - st1.year)
@@ -53,8 +52,8 @@ function App() {
                     )
                 })}
               </StoryContainer>
-              <Subtitle line>👩🏻‍💻 I've also worked on interactives and individual graphics to support breaking news and other data-driven storytelling. Here are some examples: </Subtitle>
-              <GraphicsContainer>
+              {/*<Subtitle line>👩🏻‍💻 I've also worked on interactives and individual graphics to support breaking news and other data-driven storytelling. Here are some examples: </Subtitle>*/}
+{/*              <GraphicsContainer>
                 {graphics
                   .map((graphic, i) => {
                     return (
@@ -67,7 +66,7 @@ function App() {
                     )
                   })
                 }
-              </GraphicsContainer>
+              </GraphicsContainer>*/}
               <Subtitle line>🛠 Toolkit</Subtitle>
               <Tools>
                 {toolkit.map((tool, i) => (<Text>{tool}</Text>))}
@@ -75,9 +74,11 @@ function App() {
               <Subtitle line>👋🏻 About me:</Subtitle>
               <Text>{aboutMeText}</Text>
             </Flex>
-            <Text>(Find me on <Link href='https://twitter.com/kt_prry'>Twitter</Link>)</Text>
+            <Text>Find a full list of <Link href='https://www.washingtonpost.com/people/kati-perry/'>my stories for the Washington Post</Link> and/or find me on <Link href='https://twitter.com/kt_prry'>Twitter</Link>.</Text>
+            <Text>Last updated April 2023.</Text>
           </Container>)
       }
+
     </div>
   )
 }
