@@ -27,23 +27,41 @@ import surveillance from '../images/ap-polling-surveillance.png'
 
 export const stories = [
   {
-    org: 'WP',
-    year: 2023,
-    link: 'https://www.washingtonpost.com/world/2023/03/01/turkey-earthquake-rubble/',
-    title: "Turkey earthquakes generated 10 times more rubble than 2010 Haiti disaster",
+    org: 'Post',
+    year: 2024,
+    link: 'https://www.washingtonpost.com/elections/interactive/2024/presidential-polling-averages/',
+    title: "Who is ahead in Harris vs. Trump 2024 presidential polls right now?",
   },
   {
-    org: 'WP',
-    year: 2023,
-    link: 'https://www.washingtonpost.com/politics/interactive/2023/democratic-primary-calendar-builder-tool/?itid=ap_katiperry',
-    title: "Pick your early Democratic primary states with our 2024 lineup builder",
+    org: 'Post',
+    year: 2024,
+    link: 'https://www.washingtonpost.com/sports/olympics/interactive/2024/how-is-us-gymnastics-team-picked/',
+    title: "Think you can build a gold medal U.S. gymnastics team? Try it.",
   },
   {
-    org: 'WP',
-    year: 2022,
-    link: 'https://www.washingtonpost.com/politics/interactive/2022/abortion-rights-election/',
-    title: "Here’s how abortion access fared in the midterm elections in nine states",
+    org: 'Post',
+    year: 2024,
+    link: 'https://www.washingtonpost.com/politics/interactive/2024/house-control-republican-margin/',
+    title: "Republicans’ House majority is their smallest in decades, and shrinking",
   },
+  {
+    org: 'Post',
+    year: 2023,
+    link: 'https://www.washingtonpost.com/politics/2023/08/09/small-town-voting-trump/',
+    title: 'Small towns don’t vote like other rural areas',
+  },
+  {
+    org: 'Post',
+    year: 2023,
+    link: 'https://www.washingtonpost.com/parenting/interactive/2023/lego-bricks-colors-history/?itid=ap_katiperry',
+    title: 'How Lego bricks went from five colors to nearly 200',
+  },
+  // {
+  //   org: 'Post',
+  //   year: 2022,
+  //   link: 'https://www.washingtonpost.com/politics/interactive/2022/abortion-rights-election/',
+  //   title: "Here’s how abortion access fared in the midterm elections in nine states",
+  // },
     {
     org: 'AP',
     year: 2023,
@@ -62,12 +80,12 @@ export const stories = [
     link: 'https://projects.apnews.com/features/2021/gaza-toll-of-war/gaza-toll-one-neighborhood.html',
     title: "Gaza's toll: After four wars, Gaza families struggle with the cost",
   },
-  {
-    org: 'AP',
-    year: 2021,
-    link: 'https://projects.apnews.com/features/2021/gaza-toll-of-war/gaza-toll-by-the-numbers.html',
-    title: 'The deepening costs of 4 Gaza wars in 13 years, in 4 charts',
-  },
+  // {
+  //   org: 'AP',
+  //   year: 2021,
+  //   link: 'https://projects.apnews.com/features/2021/gaza-toll-of-war/gaza-toll-by-the-numbers.html',
+  //   title: 'The deepening costs of 4 Gaza wars in 13 years, in 4 charts',
+  // },
 ]
 
 export const graphics = [

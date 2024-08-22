@@ -85,6 +85,6 @@ export const GraphicTitle = styled.p`
 
 export const Tools = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(auto, 1fr));
   margin-bottom: 50px;
 `
