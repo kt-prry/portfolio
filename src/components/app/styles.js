@@ -87,4 +87,8 @@ export const Tools = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 1fr));
   margin-bottom: 50px;
+
+  @media (max-width: 360px) {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+  }
 `
