@@ -31,7 +31,7 @@ function App() {
               .map((story, i) => {
                 return (
                   <Text>
-                    <Link key={i} href={story.link}>{story.title}</Link> <TextNote>{story.org}/{story.year}</TextNote>
+                    <Link key={i} href={story.link} target='_blank'>{story.title}</Link> <TextNote>{story.org}/{story.year}</TextNote>
                   </Text>
                 )
             })}
