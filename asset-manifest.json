@@ -1,41 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.be112bb3.js",
+    "main.js": "/portfolio/static/js/main.53a0ffa9.js",
     "static/js/787.9fa5dc5d.chunk.js": "/portfolio/static/js/787.9fa5dc5d.chunk.js",
-    "static/media/armenia_reference_map.png": "/portfolio/static/media/armenia_reference_map.cd3492455bb748301c7f.png",
-    "static/media/yellowstone.png": "/portfolio/static/media/yellowstone.ff0fd38b7ec9a862959d.png",
-    "static/media/spain-square.png": "/portfolio/static/media/spain-square.ccf688aa3a5c4b411ed8.png",
-    "static/media/caucasus_region.png": "/portfolio/static/media/caucasus_region.6cc9538ce90eb6090d26.png",
-    "static/media/zoom-in-caucasus.png": "/portfolio/static/media/zoom-in-caucasus.bd9bdcfd7c3e5df17b47.png",
-    "static/media/zoom-in-spain.png": "/portfolio/static/media/zoom-in-spain.8c30a2b9cb9c5d231283.png",
-    "static/media/adventure-in-calahorra.png": "/portfolio/static/media/adventure-in-calahorra.56e94d59b1496102fef3.png",
-    "static/media/te-araroa.png": "/portfolio/static/media/te-araroa.11a12a8efd4ffd20da7e.png",
-    "static/media/radio-emory.png": "/portfolio/static/media/radio-emory.4478bd25fcc71b508c6c.png",
-    "static/media/radio-emory-narrative.png": "/portfolio/static/media/radio-emory-narrative.9719f512b26a149b7806.png",
-    "static/media/vc_full.jpeg": "/portfolio/static/media/vc_full.f036b948eae0b28f23d7.jpeg",
-    "static/media/georgia-audit-2020.jpeg": "/portfolio/static/media/georgia-audit-2020.8cbe03e613507e622f9b.jpeg",
-    "static/media/biden-promise-tracker.png": "/portfolio/static/media/biden-promise-tracker.b2e79524756d562e5fc4.png",
-    "static/media/ap-votecast-prem.jpeg": "/portfolio/static/media/ap-votecast-prem.5be0acc047f93d83a4ef.jpeg",
-    "static/media/gaza-breaking-news.jpg": "/portfolio/static/media/gaza-breaking-news.c5c0df193d169192e9ea.jpg",
-    "static/media/vc_timeline.png": "/portfolio/static/media/vc_timeline.3c6e0b60452963a1b8df.png",
-    "static/media/ap-polling-freedoms.png": "/portfolio/static/media/ap-polling-freedoms.9df4eec197afbed88f8a.png",
-    "static/media/votecast-prem-state-view.jpeg": "/portfolio/static/media/votecast-prem-state-view.8823fff9e5a34cd5f36d.jpeg",
-    "static/media/ap-polling-surveillance.png": "/portfolio/static/media/ap-polling-surveillance.c0cf8f17b7c16e1ba25e.png",
-    "static/media/issues.png": "/portfolio/static/media/issues.c7a64f4ad77e98b1f98a.png",
-    "static/media/calahorra-zoom.png": "/portfolio/static/media/calahorra-zoom.97b4d06d8a983cf9e404.png",
-    "static/media/vc_squares.png": "/portfolio/static/media/vc_squares.6ff0aecde66369da1bee.png",
-    "static/media/ap-votecast-lite-ge.jpeg": "/portfolio/static/media/ap-votecast-lite-ge.f76ac87576a63ad63f00.jpeg",
-    "static/media/approval.png": "/portfolio/static/media/approval.9b25581b1e0d16720443.png",
-    "static/media/vc_healthcare.png": "/portfolio/static/media/vc_healthcare.2a571f5268fec566146e.png",
-    "static/media/ap-votecast-lite-1.jpeg": "/portfolio/static/media/ap-votecast-lite-1.71ea5f12863b31b77d9f.jpeg",
     "index.html": "/portfolio/index.html",
     "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.be112bb3.js.map": "/portfolio/static/js/main.be112bb3.js.map",
+    "main.53a0ffa9.js.map": "/portfolio/static/js/main.53a0ffa9.js.map",
     "787.9fa5dc5d.chunk.js.map": "/portfolio/static/js/787.9fa5dc5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.be112bb3.js"
+    "static/js/main.53a0ffa9.js"
   ]
 }
