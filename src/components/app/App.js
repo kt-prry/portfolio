@@ -15,7 +15,7 @@ import { stories } from '../work_data'
 function App() {
   const introText = "Hi! I'm Kati, and I'm a graphics reporter at the Washington Post."
   const aboutMeText = "I'm a Mississippi native, and I love to learn and build things."
-  const toolkit = ['JS', 'React', 'D3', 'Illustrator', 'Photoshop', 'QGIS', 'R']
+  const toolkit = ['JS', 'React', 'D3', 'Node', 'Illustrator', 'R', 'QGIS', 'Photoshop']
 
   return (
     <div>
@@ -44,7 +44,7 @@ function App() {
           <Text>{aboutMeText}</Text>
         </Flex>
         <Text>Check out all <Link href='https://www.washingtonpost.com/people/kati-perry/'>my stories for the Washington Post</Link>.</Text>
-        <Text>Last updated August 2024.</Text>
+        <Text>Last updated April 2024.</Text>
       </Container>
     </div>
   )
