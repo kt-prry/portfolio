@@ -44,7 +44,7 @@ function App() {
           <Text>{aboutMeText}</Text>
         </Flex>
         <Text>Check out all <Link href='https://www.washingtonpost.com/people/kati-perry/'>my stories for the Washington Post</Link>.</Text>
-        <Text>Last updated April 2024.</Text>
+        <Text>Last updated April 2025.</Text>
       </Container>
     </div>
   )
