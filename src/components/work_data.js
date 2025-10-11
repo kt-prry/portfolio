@@ -1,6 +1,18 @@
 export const stories = [
   {
     org: 'Post',
+    year: 2025,
+    link: 'https://www.washingtonpost.com/sports/interactive/2025/parlay-popularity-odds-sportsbooks/',
+    title: 'Americans can’t stop betting parlays. Sportsbooks are cashing in.'
+  },
+  {
+    org: 'Post',
+    year: 2025,
+    link: 'https://www.washingtonpost.com/sports/interactive/2025/transfers-march-madness-ncaa-tournament/',
+    title: 'Transfers rule March Madness. See how your team’s roster compares.'
+  },
+  {
+    org: 'Post',
     year: 2024,
     link: 'https://www.washingtonpost.com/elections/interactive/2024/11/05/compare-2020-2024-presidential-results/',
     title: 'How counties are shifting in the 2024 presidential election'
