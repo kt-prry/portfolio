@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 900px;
   margin-bottom: 125px;
 `
 
@@ -33,8 +33,19 @@ export const Flex = styled.div`
 `
 
 export const StoryContainer = styled.div`
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 30px;
+  row-gap: 25px;
   margin-bottom: 50px;
+
+  @media only screen and (max-width: 750px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media only screen and (max-width: 450px) {
+    grid-template-columns: 100%;
+  }
 `
 
 export const Text = styled.p`
