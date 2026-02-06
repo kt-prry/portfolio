@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.c31d6b37.js",
+    "main.js": "/portfolio/static/js/main.61f5ea7a.js",
     "static/js/787.9fa5dc5d.chunk.js": "/portfolio/static/js/787.9fa5dc5d.chunk.js",
+    "static/media/swing_state_guide.png": "/portfolio/static/media/swing_state_guide.d7cdea4c43888197bbd7.png",
     "static/media/county_shifts.png": "/portfolio/static/media/county_shifts.cd37fe4bce2af59ae058.png",
     "static/media/gaza.png": "/portfolio/static/media/gaza.480ab9d57e630546164b.png",
     "static/media/polar_bears.png": "/portfolio/static/media/polar_bears.67f957492f68a8b1b98d.png",
     "static/media/fec_food.png": "/portfolio/static/media/fec_food.d8bdf070e0a9e8f31d6e.png",
     "static/media/adrift.png": "/portfolio/static/media/adrift.2224bc5499b5cce49a2e.png",
+    "static/media/post_polls.png": "/portfolio/static/media/post_polls.37c9bb9d18595f925099.png",
+    "static/media/gymnastics.jpeg": "/portfolio/static/media/gymnastics.dd726d5f459c5a409d62.jpeg",
+    "static/media/recipes.jpeg": "/portfolio/static/media/recipes.f41d7f1fea16b16161e6.jpeg",
+    "static/media/small_towns.jpeg": "/portfolio/static/media/small_towns.b1c8e7de4ff0b7004991.jpeg",
+    "static/media/majority.jpeg": "/portfolio/static/media/majority.bc65265863be28a59d4a.jpeg",
     "static/media/lego.jpeg": "/portfolio/static/media/lego.05a9272868338d4e8bc7.jpeg",
-    "static/media/gymnastics.jpeg": "/portfolio/static/media/gymnastics.2bc8598b07098c1fc5d2.jpeg",
-    "static/media/recipes.jpeg": "/portfolio/static/media/recipes.8cc377ad12c0c47a57eb.jpeg",
-    "static/media/small_towns.jpeg": "/portfolio/static/media/small_towns.5aea3ebb3685e270fbb4.jpeg",
+    "static/media/fed_gov_cuts.jpeg": "/portfolio/static/media/fed_gov_cuts.8332559b3fff78b46847.jpeg",
     "static/media/parlays.jpeg": "/portfolio/static/media/parlays.3ab2da2d763f452f766c.jpeg",
-    "static/media/majority.jpeg": "/portfolio/static/media/majority.4897db03dac712b73497.jpeg",
-    "static/media/swing_state_guide.jpeg": "/portfolio/static/media/swing_state_guide.6a73258bb5d8480ab46b.jpeg",
-    "static/media/post_polls.jpeg": "/portfolio/static/media/post_polls.e1e2c5f80733aae6e986.jpeg",
     "index.html": "/portfolio/index.html",
     "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.c31d6b37.js.map": "/portfolio/static/js/main.c31d6b37.js.map",
+    "main.61f5ea7a.js.map": "/portfolio/static/js/main.61f5ea7a.js.map",
     "787.9fa5dc5d.chunk.js.map": "/portfolio/static/js/787.9fa5dc5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c31d6b37.js"
+    "static/js/main.61f5ea7a.js"
   ]
 }
