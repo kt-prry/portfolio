@@ -15,6 +15,13 @@ export const stories = [
   },
   {
     org: 'Post',
+    year: 2025,
+    link: 'https://www.washingtonpost.com/politics/interactive/2025/white-house-budget-federal-government/',
+    title: 'The White House’s plan to downsize the federal government, in charts',
+    path: 'fedGovCuts',
+  },
+  {
+    org: 'Post',
     year: 2024,
     link: 'https://www.washingtonpost.com/elections/interactive/2024/11/05/compare-2020-2024-presidential-results/',
     title: 'How counties are shifting in the 2024 presidential election',
